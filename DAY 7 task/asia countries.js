@@ -34,11 +34,9 @@ request.onload=function(){
     console.log(currency);
     var curname=currency.map((curn)=>curn.currencies);
     console.log(curname);
-    var dollar=curname.filter((dol)=>dol.name=='United States dollar');
-    console.log(dollar);
-    var doll=dollar.map((dolcur)=>dolcur.name);
-    console.log(doll);
-  
+    var dollar=curname.filter((dol)=>dol.USD);;
+    console.log(dollar); 
+
     
 
     }
